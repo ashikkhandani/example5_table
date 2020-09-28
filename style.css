@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: fantasy;
+}
+table {
+  width: 350px;
+  height: 300px;
+  margin: 50px auto;
+}
+td {
+  font-size: 1.2rem;
+  padding: 10px;
+}
+tr:first-child td {
+  border-left: 4px solid #cc181b;
+}
+tr:nth-child(3) td {
+  border-left: 4px solid #cc181b;
+}
+tr:nth-child(5) td {
+  border-left: 4px solid #cc181b;
+}
+tr:nth-child(2) td {
+  border-left: 4px solid #449d45;
+}
+
+tr:nth-child(4) td {
+  border-left: 4px solid #449d45;
+}
+tr:nth-child(6) td {
+  border-left: 4px solid #449d45;
+}
+
+tr td:nth-child(2) {
+  border-left: 4px solid #c0c0c0;
+}
+tr td:last-child {
+  border-left: 4px solid #c0c0c0;
+}
